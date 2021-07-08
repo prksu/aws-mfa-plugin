@@ -1,0 +1,2 @@
+https://github.com/aws/aws-cli/zipball/v2#egg=awscli
+https://github.com/boto/botocore/zipball/v2#egg=botocore
