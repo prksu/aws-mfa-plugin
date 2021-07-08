@@ -12,7 +12,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name="aws-mfa-plugin",
-    version="0.0.1",
+    version="0.0.3",
     description="An awscli plugin to authenticate and retrive AWS temporary credentials using a MFA device",
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -30,10 +30,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages(where='src'),
     python_requires='>=3.6, <4',
-    install_requires=[
-        'awscli >=2.0.0',
-        'botocore'
-    ],
+    install_requires=[],
     project_urls={
         'Bug Reports': 'https://github.com/prksu/aws-mfa-plugin/issues',
         'Source': 'https://github.com/prksu/aws-mfa-plugin/',
