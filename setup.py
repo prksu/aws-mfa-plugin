@@ -12,7 +12,7 @@ long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 setup(
     name="aws-mfa-plugin",
-    version="0.0.3",
+    version="0.0.4",
     description="An awscli plugin to authenticate and retrive AWS temporary credentials using a MFA device",
     long_description=long_description,
     long_description_content_type='text/markdown',
